@@ -1,0 +1,97 @@
+* {
+    text-decoration: none;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0 10%;
+}
+
+div {
+    display: block;
+}
+
+.container {
+    margin: 10px auto;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: silver;
+}
+
+.color-panel {
+    display: inline-block;
+    text-align: center;
+    width: 32%;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.cool-blue {
+    color: white;
+    background-color: hsl(210, 85.7%, 53.3%);
+}
+
+.pink {
+    color: black;
+    background-color: rgb(255,20,147,1.0);
+}
+
+.mint-green {
+    color: black;
+    background-color: hsl(120,100%,79.8%);
+}
+
+.beige {
+    color: black;
+    background-color: rgb(245,245,220);
+}
+
+
+
+.font-panel {
+    width: 45%;
+    display: inline-block;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.nunito {
+    font-family: Nunito, cursive;
+}
+
+.roboto-mono {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.playfair-display {
+    font-family: 'Playfair Display', serif;
+}
+
+
+.text-h1 {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: Nunito;
+}
+
+.text-h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;;
+}
+
+.text-h3 {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Inconsolata', monospace;
+}
